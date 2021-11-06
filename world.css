@@ -1,1 +1,99 @@
 /* Add your own styles */
+
+body{
+    background-color: #f5f9ff;
+    font-family: Arial;
+    color: #696969;
+}
+
+h1{
+    text-align: center;
+    margin-top: 130px;
+    margin-right: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+header{
+  background-color: #495668;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse;
+    margin-bottom:50px;
+    
+    
+}
+button{
+    background-color: #069a9ac7;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top:20px;
+ 
+}
+
+th{
+    padding-right: 60px;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    
+}
+
+tr{
+    border: 1px solid #E2E8F0;
+}
+
+td{
+  padding: 5px;
+  padding-right: 50px;
+
+}
+
+label{
+    display:none;
+}
+
+#controls{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding:5px;
+    margin-top: 50px;
+}
+
+#country{
+    box-shadow: 1px 1px 2px 3px #E2E8F0;
+    width: 450px;
+    border: none;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+tbody tr:nth-child(even)
+{
+  background-color: white;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+}
+
+
+
+
+
+
+
+
