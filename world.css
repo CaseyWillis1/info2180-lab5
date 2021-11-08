@@ -27,18 +27,31 @@ header{
     margin-left: auto;
     margin-right: auto;
     border-collapse:collapse;
+    margin-top: 50px;
     margin-bottom:50px;
     
     
 }
-button{
+#country2{
     background-color: #069a9ac7;
     color: white;
     border: none;
     padding: 8px;
     border-radius: 5px;
     margin-top:20px;
+    margin-left: 520px;
+   
  
+}
+
+#cities{
+    background-color: #6495ed;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top:20px;
+    
 }
 
 th{
@@ -63,21 +76,19 @@ label{
     display:none;
 }
 
-#controls{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    padding:5px;
-    margin-top: 50px;
-}
-
 #country{
     box-shadow: 1px 1px 2px 3px #E2E8F0;
     width: 450px;
     border: none;
     border-radius: 2px;
     padding: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding:5px;
+    margin-top: 50px;
+    margin-left: 400px;
 }
 
 tbody tr:nth-child(even)
